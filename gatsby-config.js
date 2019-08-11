@@ -9,7 +9,10 @@ module.exports = {
     title: 'Full-Stack Bootcamp!',
     author: 'Abhinav Anshul!'
   },
+  
+  
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
