@@ -10,6 +10,15 @@ module.exports = {
     author: 'Abhinav Anshul!'
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        //spaceId: process.env.CONTENTFUL_SPACE_ID,
+        spaceId: 'npoxw3p42pmz',
+        // accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+        accessToken: 'lhIOvWdcIY6WQVCj_JGPQNcIJXIQCvcKkLIdIlnMSGE' 
+      }
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
